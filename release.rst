@@ -4,6 +4,23 @@ Release Notes
 
 |
 
+Release Galaxy 1.2.5
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiSwitch Galaxy 1.2.5 is based on 1.2.4
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix the issue while unsetting allowaccess in `fortiswitch_system_interface`
+
+Features
+^^^^^^^^^^^^^^^
+- Support new version 7.6.0
+- Update README.md to satisfy the latest Ansible collection requirements.
+
 Release Galaxy 1.2.4
 --------------------
 
@@ -20,6 +37,7 @@ Features
 - Add warning on the document for the module `fortiswitch_system_proxy_arp` to indicate that the module is not used for production purpose.
 - Update the required Ansible version to 2.15.
 - Support multiple valus for the parameter of `ip6_allowaccess` in the module of `fortiswitch_system_interface`.
+- Support Ansible 2.17.
 
 Release Galaxy 1.2.3
 --------------------
