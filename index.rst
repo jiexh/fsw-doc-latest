@@ -35,6 +35,7 @@ The FortiSwitch Ansible Collection provides Ansible modules for configuring Fort
    fact.rst
    export.rst
    execute-modules.rst
+   generic.rst
 
 .. toctree::
    :glob:
