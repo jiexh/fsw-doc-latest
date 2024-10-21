@@ -23,6 +23,7 @@ Features
 - Update README.md to satisfy the latest Ansible collection requirements.
 - Improve the code logic to send GET request and then POST or PUT request.
 - Add `fortiswitch_json_generic` module.
+- Support check_mode and diff feature for all the configuration modules.
 
 Release Galaxy 1.2.4
 --------------------
